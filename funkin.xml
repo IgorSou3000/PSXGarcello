@@ -119,7 +119,9 @@
 				<file name = "4.3n.cht" type = "data" source = "iso/chart/milf.json.cht"/>
 				<file name = "4.3h.cht" type = "data" source = "iso/chart/milf-hard.json.cht"/>
 				<!-- Test charts -->
+				<file name = "4.4e.cht" type = "data" source = "iso/chart/test.json.cht"/>
 				<file name = "4.4n.cht" type = "data" source = "iso/chart/test.json.cht"/>
+				<file name = "4.4h.cht" type = "data" source = "iso/chart/test.json.cht"/>
 			</dir>
 			
 			<!-- Week 5 assets -->

@@ -15,7 +15,6 @@
 #include "character.h"
 #include "player.h"
 #include "object.h"
-#include "menu.h"
 
 //Stage constants
 #define INPUT_LEFT  (PAD_LEFT  | PAD_SQUARE)

@@ -1622,44 +1622,6 @@ void Stage_Tick(void)
 			if (stage.back->draw_bg != NULL)
 				stage.back->draw_bg(stage.back);
 			
-			/*
-			//Draw curtains
-			RECT curtain_src = {0, 0, 128, 256};
-			RECT_FIXED curtain1_dst = {
-				FIXED_DEC(-300,1) - stage.camera.x,
-				FIXED_DEC(-350,1) - stage.camera.y,
-				FIXED_DEC(200,1),
-				FIXED_DEC(400,1)
-			};
-			RECT_FIXED curtainr_dst = {
-				FIXED_DEC(300,1) - stage.camera.x,
-				FIXED_DEC(-350,1) - stage.camera.y,
-				FIXED_DEC(-200,1),
-				FIXED_DEC(400,1)
-			};
-			
-			Stage_DrawTex(&stage.tex_back1, &curtain_src, &curtain1_dst, FIXED_MUL(FIXED_DEC(95,100), stage.bump));
-			Stage_DrawTex(&stage.tex_back1, &curtain_src, &curtainr_dst, FIXED_MUL(FIXED_DEC(95,100), stage.bump));
-			
-			//Draw stage
-			RECT stagel_src = {0, 0, 256, 128};
-			RECT_FIXED stage1_dst = {
-				FIXED_DEC(-500,1) - stage.camera.x,
-				FIXED_DEC(32,1) - stage.camera.y,
-				FIXED_DEC(500,1),
-				FIXED_DEC(250,1)
-			};
-			RECT stager_src = {0, 128, 256, 128};
-			RECT_FIXED stager_dst = {
-				-stage.camera.x,
-				FIXED_DEC(32,1) - stage.camera.y,
-				FIXED_DEC(500,1),
-				FIXED_DEC(250,1)
-			};
-			
-			Stage_DrawTex(&stage.tex_back0, &stagel_src, &stage1_dst, stage.bump);
-			Stage_DrawTex(&stage.tex_back0, &stager_src, &stager_dst, stage.bump);
-			*/
 			break;
 		}
 		case StageState_Dead: //Start BREAK animation and reading extra data from CD

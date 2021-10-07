@@ -8,7 +8,6 @@
 
 #include "../archive.h"
 #include "../mem.h"
-#include "../stage.h"
 
 //Week 1 background structure
 typedef struct
